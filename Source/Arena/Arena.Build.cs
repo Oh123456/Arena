@@ -8,7 +8,7 @@ public class Arena : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "OnlineSubsystem" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "OnlineSubsystem" , "OnlineSubsystemUtils" , "SlateCore" });
         DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
     }
 }
